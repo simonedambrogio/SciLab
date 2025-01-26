@@ -4,8 +4,8 @@ A Node.js-based application designed for training monkeys using a Windows tablet
 
 ## Overview
 
-This project provides a web-based interface for conducting monkey training experiments. It features:
-- Interactive tablet-based interface
+This project provides a web-based interface for conducting monkey training experiments. The Node.js backend makes it easy to create new experiments using the [jsPsych](https://www.jspsych.org/latest/) framework - a JavaScript library specifically designed for building behavioral experiments in a web browser. The system features:
+- Interactive tablet-based interface with jsPsych for flexible experiment design
 - Arduino integration for reward dispensing
 - Data collection and storage in MongoDB
 - Real-time communication between the interface and reward system
