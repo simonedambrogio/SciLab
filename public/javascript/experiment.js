@@ -435,16 +435,6 @@ function drawRect(canvas){
         canvas.addEventListener('click', () => { is_click=true; });
         function animate() {
 
-            
-            // updateRefreshN()            
-
-            if( is_click ){
-                // window.dispatchEvent(new KeyboardEvent('keydown', {'key': 'e'}));
-                // element.dispatchEvent(new KeyboardEvent('keydown', {'key': 'a'}));
-                // window.simulateCorrectKeyPress = function(character) {
-                    // jQuery.event.trigger({ type : 'keypress', which : 'e'});
-                // }
-            }
             canvas.width = window.innerWidth*.95;
             canvas.height = window.innerHeight*0.7;
             
